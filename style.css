@@ -1,0 +1,224 @@
+/*
+Theme Name: Rodina
+*/
+:root {
+  --text-color: #251c1c;
+  --text-color-hover: #605c64;
+  --text-font-title: 'Roboto', sans-serif;
+  --text-font: 'Roboto Condensed', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-color);
+}
+
+body {
+  font-family: var(--text-font);
+  font-size: 24px;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: var(--header-bg);
+  font-family: var(--text-font-title);
+  min-height: 80px;
+  text-transform: uppercase;
+  align-content: center;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 34px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.header__title:hover {
+  color: var(--text-color-hover);
+}
+
+div#navbarNav {
+  justify-content: flex-end;
+}
+
+a.nav-link {
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--text-color) !important;
+  font-size: 28px;
+  transition: all .5s;
+}
+
+a.nav-link:hover {
+  color: var(--text-color-hover) !important;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.about {
+  min-height: 90vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.main__img,
+.work__img {
+  border-radius: 10px;
+  transition: all .7s;
+}
+
+.work__img:hover {
+  width: 65%;
+  cursor: pointer;
+}
+
+img.fancybox-image {
+  border-width: 5px !important;
+}
+
+.main__img {
+  float: left;
+  width: 60%;
+  height: auto;
+}
+
+.about__text {
+  font-weight: 400;
+  text-align: center;
+  line-height: 28px;
+}
+
+.work__items {
+  min-height: 550px;
+  align-items: center;
+  text-align: center;
+}
+
+.work__img {
+  width: 60%;
+  height: auto;
+}
+
+.price {
+  margin-top: 50px;
+}
+
+.price__title {
+  font-family: var(--text-font-title);
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services {
+  font-weight: 400;
+}
+
+.price__cost {
+  text-align: right;
+}
+
+.price__footnote {
+  font-size: 15px;
+}
+
+.reviews {
+  display: none;
+  margin-top: 50px;
+}
+
+.review__item {
+  width: 15%;
+  height: auto;
+  padding: 10px;
+}
+
+.reviews__title {
+  margin-top: 70px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #C7C7C7;
+  font-size: 26px;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.footer__social {
+  min-height: 65px;
+}
+
+.footer__link {
+  padding-right: 10px;
+}
+
+.footer__logo {
+  width: 45px;
+  height: auto;
+  transition: all 0.5s;
+}
+
+/* .footer__logo:hover {
+  width: 55px;
+} */
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__email,
+.footer__phone {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: all 0.5s;
+}
+
+.footer__email:hover,
+.footer__phone:hover {
+  color: var(--text-color-hover);
+}
+
+.scroll__top {
+  display: none;
+  width: 25px;
+  height: auto;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* .scroll__img {
+  filter: invert(74%) sepia(80%) saturate(4%) hue-rotate(22deg) brightness(92%) contrast(95%);
+  transition: all .7s;
+}
+
+.scroll__img:hover {
+  filter: invert(57%) sepia(0%) saturate(0%) hue-rotate(148deg) brightness(95%) contrast(84%);
+} */
+@media (max-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .main__img {
+    float: none;
+  }
+}
