@@ -18,6 +18,9 @@
   <?php wp_head(); ?>
 
   <title><?php bloginfo('description') ?></title>
+  <meta name="description" content="Я проведу Вас через удивительный мыр фотографии">
+  <meta name="Keywords" content="Лена, Родина, лена, родина, Lena, Rodina, lena, rodina, фотограф, свотографирую, фотографировать, москва, Москва,сделаю, фото, фотосессия, фотосет, дешево, позирование, парные, индивидуальные, обработка, мудборд, групповая, съемка ">
+  <meta name="google-site-verification" content="cMKB_sbzoo_aGOmpwBjZ9TSaMZQLgHy4twbrJG9JrRg" />
 </head>
 
 <body>
